@@ -1,0 +1,6 @@
+{
+  "name": "La Vila d'Argençola",
+  "description": "Sitio web oficial de La Vila d'Argençola: masía del siglo XVIII con ampliación modernista de 1922 en 166 hectáreas en el Geoparque UNESCO de la Cataluña Central.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
