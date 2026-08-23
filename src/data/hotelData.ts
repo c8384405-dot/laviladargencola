@@ -1,7 +1,7 @@
 export interface PlatformLink {
   name: string;
   url: string;
-  icon: 'airbnb' | 'booking' | 'escapadarural' | 'bodas' | 'youtube';
+  icon: 'airbnb' | 'booking' | 'escapadarural' | 'filmcommission' | 'youtube';
   color: string;
   badge: string;
   description: string;
@@ -33,12 +33,12 @@ export const OFFICIAL_PLATFORMS: PlatformLink[] = [
     description: "Portal líder de turismo rural en Cataluña y España."
   },
   {
-    name: "Bodas.net",
-    url: "https://www.bodas.net/fincas/vila-argencola--e252439",
-    icon: "bodas",
-    color: "#E91E63",
-    badge: "Finca Exclusiva",
-    description: "Consultas y presupuestos para bodas y celebraciones privadas."
+    name: "Barcelona Film Commission",
+    url: "https://www.bcncatfilmcommission.com/ca/location/la-vila-dargen%C3%A7ola",
+    icon: "filmcommission",
+    color: "#D4AF37",
+    badge: "Localización Oficial",
+    description: "Ficha oficial de localización para rodajes, sesiones fotográficas y eventos en la masía."
   },
   {
     name: "YouTube",
@@ -71,6 +71,7 @@ export const HOTEL_INFO = {
   livingRoomsCount: 3,
   phone: "937 43 32 42",
   phoneRaw: "937433242",
+  email: "escarpenterrosa@gmail.com",
   logo: "/logovila.png",
   documentaryTitle: "La carta",
   documentaryUrl: "https://www.youtube.com/watch?v=-VgK4eeSrag",

@@ -9,6 +9,7 @@ import {
   Heart,
   Sparkles,
   Phone,
+  Mail,
   Film
 } from 'lucide-react';
 import { HOTEL_INFO, OFFICIAL_PLATFORMS } from '../data/hotelData';
@@ -160,11 +161,25 @@ export const Footer: React.FC<FooterProps> = ({ currentLang, onOpenSeeMore }) =>
                 </span>
                 <a
                   href={`tel:${HOTEL_INFO.phoneRaw}`}
-                  className="inline-flex items-center space-x-2 text-sm font-bold text-[#D4AF37] hover:text-white bg-black/60 px-3.5 py-2 rounded-xs border border-stone-800 hover:border-[#D4AF37] transition-all"
+                  className="inline-flex items-center space-x-2 text-sm font-bold text-[#D4AF37] hover:text-white bg-black/60 px-3.5 py-2 rounded-xs border border-stone-800 hover:border-[#D4AF37] transition-all w-full justify-start"
                   title="Llamar directamente por teléfono"
                 >
-                  <Phone className="w-4 h-4 text-[#D4AF37]" />
+                  <Phone className="w-4 h-4 text-[#D4AF37] shrink-0" />
                   <span className="font-mono text-sm tracking-wider">{HOTEL_INFO.phone}</span>
+                </a>
+              </div>
+
+              <div className="pt-2 border-t border-stone-800/80">
+                <span className="text-[10px] uppercase tracking-wider text-stone-400 font-bold block mb-1.5">
+                  Correo electrónico:
+                </span>
+                <a
+                  href={`mailto:${HOTEL_INFO.email}`}
+                  className="inline-flex items-center space-x-2 text-xs font-bold text-[#D4AF37] hover:text-white bg-black/60 px-3 py-2 rounded-xs border border-stone-800 hover:border-[#D4AF37] transition-all break-all w-full"
+                  title="Enviar correo electrónico"
+                >
+                  <Mail className="w-4 h-4 text-[#D4AF37] shrink-0" />
+                  <span className="font-mono text-xs">{HOTEL_INFO.email}</span>
                 </a>
               </div>
             </div>

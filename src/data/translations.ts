@@ -86,7 +86,7 @@ export interface TranslationDict {
     airbnb: string;
     bookingCom: string;
     escapadaRural: string;
-    bodasNet: string;
+    filmCommission: string;
     youtube: string;
     phoneCall: string;
     registrationsTitle: string;
@@ -241,7 +241,7 @@ export const TRANSLATIONS: Record<Language, TranslationDict> = {
       airbnb: "Reservar en Airbnb",
       bookingCom: "Reservar en Booking.com",
       escapadaRural: "Reservar en EscapadaRural",
-      bodasNet: "Consultar en Bodas.net",
+      filmCommission: "Ver en Barcelona Film Commission",
       youtube: "Ver Canal de YouTube",
       phoneCall: "Llamar por teléfono al 937 433 242",
       registrationsTitle: "Datos del Registro Oficial de Turismo",
@@ -413,7 +413,7 @@ export const TRANSLATIONS: Record<Language, TranslationDict> = {
       airbnb: "Reservar a Airbnb",
       bookingCom: "Reservar a Booking.com",
       escapadaRural: "Reservar a EscapadaRural",
-      bodasNet: "Consultar a Bodas.net",
+      filmCommission: "Veure a Barcelona Film Commission",
       youtube: "Veure Canal de YouTube",
       phoneCall: "Trucar per telèfon al 937 433 242",
       registrationsTitle: "Dades del Registre Oficial de Turisme",
@@ -585,7 +585,7 @@ export const TRANSLATIONS: Record<Language, TranslationDict> = {
       airbnb: "Book on Airbnb",
       bookingCom: "Book on Booking.com",
       escapadaRural: "Book on EscapadaRural",
-      bodasNet: "Inquire on Bodas.net",
+      filmCommission: "View on Barcelona Film Commission",
       youtube: "Visit YouTube Channel",
       phoneCall: "Call direct at 937 433 242",
       registrationsTitle: "Official Tourism Registry Information",

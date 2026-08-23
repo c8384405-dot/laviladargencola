@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, ShieldCheck, Sparkles, Youtube, CheckCircle2, Home, Building2, Trees, Heart } from 'lucide-react';
+import { ExternalLink, ShieldCheck, Sparkles, Youtube, CheckCircle2, Home, Building2, Trees, Clapperboard, Film } from 'lucide-react';
 import { HOTEL_INFO, OFFICIAL_PLATFORMS } from '../data/hotelData';
 import { Language, TRANSLATIONS } from '../data/translations';
 
@@ -19,8 +19,8 @@ export const BookingSection: React.FC<BookingSectionProps> = ({ currentLang }) =
         return Building2;
       case 'escapadarural':
         return Trees;
-      case 'bodas':
-        return Heart;
+      case 'filmcommission':
+        return Clapperboard;
       case 'youtube':
         return Youtube;
       default:
@@ -91,7 +91,9 @@ export const BookingSection: React.FC<BookingSectionProps> = ({ currentLang }) =
 
                 {/* Direct Action Button */}
                 <div className="w-full py-3 bg-[#D4AF37] group-hover:bg-[#c49f2e] text-stone-950 font-bold text-xs uppercase tracking-widest rounded-xs text-center transition-colors flex items-center justify-center space-x-1.5 shadow-md">
-                  <span>Reservar en {platform.name}</span>
+                  <span>
+                    {platform.icon === 'filmcommission' ? 'Ver en Film Commission' : `Reservar en ${platform.name}`}
+                  </span>
                 </div>
               </a>
             );
