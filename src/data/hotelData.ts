@@ -84,7 +84,7 @@ export const HOTEL_INFO = {
 
 // Authentic photos and architectural plans
 export const AUTHENTIC_PHOTOS: string[] = [
-  "/media/photo-32.jpeg",
+  "/vila1234.png",
   "/media/photo-02.jpeg",
   "/media/photo-03.jpeg",
   "/media/photo-04.jpeg",

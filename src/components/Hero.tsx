@@ -21,11 +21,10 @@ export const Hero: React.FC<HeroProps> = ({ currentLang, onOpenSeeMore }) => {
         <img
           src={AUTHENTIC_PHOTOS[0]}
           alt="La Vila d'Argençola"
-          className="w-full h-full object-cover object-center scale-105 transition-transform duration-1000 ease-out"
+          className="w-full h-full object-cover object-center contrast-[1.08] brightness-[0.88] saturate-[1.05]"
         />
-        {/* Editorial Gradients */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#1A1A1A] via-black/55 to-black/75" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-transparent via-black/30 to-black/80" />
+        {/* Clean, clear gradient to enhance sharpness and readability without blurring */}
+        <div className="absolute inset-0 bg-gradient-to-t from-[#1A1A1A]/90 via-black/25 to-black/40" />
       </div>
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 text-center flex flex-col items-center">
